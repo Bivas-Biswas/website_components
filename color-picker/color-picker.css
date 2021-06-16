@@ -1,0 +1,31 @@
+:after,*,:before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    flex-direction: column;
+    box-shadow:0 9px 16px rgba(0, 0, 0, 0.15);
+    align-items: center;
+}
+.showcase{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    background-color: lightskyblue;
+    box-shadow:0 9px 16px rgba(0, 0, 0, 0.15);
+}
+
+h1{
+    padding: 20px 20px 10px 20px;
+}
+
+.pcr-app{
+    transform: translate(306px, 10px);
+}
