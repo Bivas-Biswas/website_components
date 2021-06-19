@@ -4,6 +4,7 @@ const pickr = Pickr.create({
     theme: 'nano',
     top: 2,
     left: 3,// or 'monolith', or 'nano'
+    default: 'lightskyblue',
     swatches: [
         'rgba(244, 67, 54, 1)',
         'rgba(233, 30, 99, 0.95)',
